@@ -42,6 +42,12 @@ After 2 seconds, the sweep motion stops and all four motors are positioned at 90
 
 The circuit was designed and tested using Tinkercad Circuits.
 
+## Circuit Diagram
+
+The following circuit was designed and simulated using Tinkercad Circuits.
+
+![Four Servo Control Circuit](Circuit_diagram.png)
+
 ## Project Structure
 
 ```text
