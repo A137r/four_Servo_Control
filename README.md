@@ -50,15 +50,6 @@ The simulation demonstrates the complete operation of the system, including the 
 
 ▶️ [Watch the Simulation Demo](Circuit_demo.mp4)
 
-## Project Structure
-
-```text
-four_Servo_Control/
-├── README.md
-├── servo_control.ino
-├── Circuit_diagram.png
-└── Circuit_demo.mp4
-```
 
 ## Result
 
