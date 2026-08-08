@@ -8,8 +8,8 @@ This project demonstrates synchronized control of four servo motors using an Ard
 
 The system performs two main actions:
 
-1. All four servo motors execute a sweep motion between 0° and 180° for 2 seconds.
-2. After the sweep motion is completed, all servo motors move to and hold a 90° position.
+1. All four servo motors perform a synchronized sweep motion between 0° and 180° for 2 seconds.
+2. After the sweep is completed, all four servo motors move to and hold a 90° position.
 
 ## Components
 
@@ -22,35 +22,33 @@ The system performs two main actions:
 ## Servo Connections
 
 | Servo | Signal Pin |
-|------|------|
+|------|------------|
 | Servo 1 | D7 |
 | Servo 2 | D8 |
 | Servo 3 | D9 |
 | Servo 4 | D10 |
 
-All servo motors share the Arduino 5V and GND connections through the breadboard.
-
-## How It Works
-
-The Arduino uses the Servo library to control the angular position of each motor.
-
-During the first 2 seconds, the motors perform a synchronized sweep motion from 0° to 180° and back.
-
-After 2 seconds, the sweep motion stops and all four motors are positioned at 90°.
-
-## Simulation
-
-The circuit was designed and tested using Tinkercad Circuits.
-
-The simulation demonstrates four servo motors performing a synchronized sweep motion for 2 seconds, followed by all motors holding at 90°.
-
-▶️ [Watch the Simulation Demo](Circuit_demo.mp4)
+All four servo motors share the Arduino 5V and GND connections through the breadboard.
 
 ## Circuit Diagram
 
-The following circuit was designed and simulated using Tinkercad Circuits.
+The circuit was designed and simulated using Tinkercad Circuits.
 
 ![Four Servo Control Circuit](Circuit_diagram.png)
+
+## How It Works
+
+The Arduino Servo library is used to control the angular position of each servo motor.
+
+During the first 2 seconds, all four motors perform a synchronized sweep from 0° to 180° and back.
+
+After the 2-second sweep period, the motion stops and all four servo motors move to 90° and hold that position.
+
+## Simulation Demo
+
+The simulation demonstrates the complete operation of the system, including the synchronized sweep motion and final 90° hold position.
+
+▶️ [Watch the Simulation Demo](Circuit_demo.mp4)
 
 ## Project Structure
 
@@ -58,5 +56,10 @@ The following circuit was designed and simulated using Tinkercad Circuits.
 four_Servo_Control/
 ├── README.md
 ├── servo_control.ino
-├── images/
-└── demo/
+├── Circuit_diagram.png
+└── Circuit_demo.mp4
+```
+
+## Result
+
+The four servo motors successfully perform the required synchronized sweep motion for 2 seconds and then hold at 90°.
