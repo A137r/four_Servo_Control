@@ -42,6 +42,10 @@ After 2 seconds, the sweep motion stops and all four motors are positioned at 90
 
 The circuit was designed and tested using Tinkercad Circuits.
 
+The simulation demonstrates four servo motors performing a synchronized sweep motion for 2 seconds, followed by all motors holding at 90°.
+
+▶️ [Watch the Simulation Demo](Circuit_demo.mp4)
+
 ## Circuit Diagram
 
 The following circuit was designed and simulated using Tinkercad Circuits.
